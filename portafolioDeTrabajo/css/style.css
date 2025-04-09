@@ -1,0 +1,98 @@
+body {
+    background-color: #25846F;
+    /* color principal para la paleta de colores.Usamos la combinacion de triada */
+}
+
+.menu {
+    background-color: #FFF2C7;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.textoMenu:hover {
+    background-color: #85DAC7;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.imagenPerfil {
+    width: 300px;
+    /* Define el ancho de la imagen */
+    height: 300px;
+    /* Define la altura de la imagen */
+    border-radius: 50%;
+    /* Hace que los bordes sean redondeados hasta formar un círculo */
+    object-fit: cover;
+    /* Ajusta la imagen para que quepa perfectamente dentro del círculo */
+}
+
+.fondoImagen {
+    background-image: url("../imagenes/halo_fondo.jpg");
+    /* Ruta de la imagen */
+    background-size: cover;
+    /* Hace que la imagen cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen dentro del contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    /* Hace que la imagen quede fija mientras se desplaza */
+}
+
+#secCualidades {
+    background-color: #3B3B3B;
+}
+
+.cardEstilo {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardEstilo:hover {
+    transform: scale(1.05);
+    /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    /* Agrega una sombra más profunda */
+}
+
+.card-title {
+    color: #7F2585;
+}
+
+#secAficiones,
+#secMisProyectos,
+#secFormulario {
+    /* background: linear-gradient(135deg, #ffecd2, #fcb69f); */
+    /* CAMBIAR COLOR*/
+    background-color: #856E25;
+}
+
+.imagen {
+    border-radius: 20px;
+    /* Redondear los bordes */
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+    /* Transición suave */
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+    /* La imagen se hace un poco más grande */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra alrededor */
+    border-radius: 30px;
+    /* Redondear los bordes */
+}
+
+.imgIconosRedes {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.imgIconosRedes:hover {
+    /* La imagen se hace un poco más grande */
+    transform: scale(1.3);
+}
