@@ -1,0 +1,105 @@
+body {
+    background-color: #FFEA70;
+    font-family: "Comic Sans","Comic Sans MS", cursive;
+    font-size: large;
+    /* margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #FFC312,#FFDD76, #ffffff); */
+}
+.bgNavbar{
+    background-color: forestgreen;
+}
+
+
+.tituloPrincipal{
+    background-color: #FFF501;
+    text-align: center; /* Centra el texto dentro del contenedor */
+    width: fit-content; /* Se adapta al ancho del texto */
+    padding: 20px 80px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.titulo2{
+    background-color: #F93F28;
+    display: block; /* Se ajusta al contenido */
+    width: fit-content; /* Se adapta al ancho del texto */
+    padding: 20px 80px;
+    color: white;
+    font-weight: 900;
+}
+
+.titulo3{
+    background-color: #DC5804;
+    color: white;
+    font-weight: 900;
+}
+
+.tituloNavbar{
+    font-size: larger;
+}
+
+.imgToni{
+    width: 50%;
+    height: 150px;
+    animation: flotar 1.5s infinite ease-in-out; /* Aplica la animación */
+}
+.imgToni2{
+    width: 50%;
+    height: 100%;
+    animation: flotar 1.5s infinite ease-in-out; /* Aplica la animación */
+}
+
+.imgToniBanner{
+    width: 100%;
+    height: 150px;
+    animation: flotar 1.5s infinite ease-in-out; /* Aplica la animación */
+}
+@keyframes flotar {
+    0% { transform: translateY(0); } /* Posición inicial */
+    50% { transform: translateY(-10px); } /* Se mueve hacia arriba */
+    100% { transform: translateY(0); } /* Regresa a la posición inicial */
+}
+
+.imgNavbar{
+    height: 100%;
+}
+
+.btnEM{
+    background-color: #FFC312;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.4s ease;
+}
+.btnEM:hover{
+    background-color: #F93F28;
+}
+
+.btnRespuestas{
+    background-color: #F93F28;
+    border: 2px solid black; /* Borde negro de 2px */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.4s ease;
+}
+.btnRespuestas:hover{
+    background-color: #FFC312;
+}
+
+.seccionEjercicios {
+    background-color: white; /* Fondo blanco */
+    border: 2px solid black; /* Borde negro de 2px */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    position: fixed; /* Fijar en pantalla */
+    bottom: 0; /* Alinear en la parte inferior */
+    right: 0; /* Alinear a la derecha */
+    padding: 10px; /* Espacio alrededor del texto */
+    width: auto; /* Se adapta al contenido */
+    font-size: small;
+}
